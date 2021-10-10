@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>VCS IMPLEMENTATION USING GITHUB</title>
+    <style type="text/css">
+    body{
+        background-color: black;
+    }
+    </style>
+</head>
+<body>
+    <h2 style="color: white; text-align: center; font-family: Arial, Helvetica, sans-serif;">WELCOME TO DOCUMENTATION OF VCS IMPLEMENTATION USING GITHUB</h2>
+    <h3 style="color: white; font-family: Arial, Helvetica, sans-serif;">OVERVIEW</h3>
+    <p style="font-size: large; font-family: Arial, Helvetica, sans-serif; color: blanchedalmond;">This documentation includes how to create or set a new repository, how to push data in  a repository, how to clone a repository.</p>
+    
+   
+
+    <h3 style="color: white; font-family: Arial, Helvetica, sans-serif;">>>CREATING/SETTING A NEW REPOSITORY</h3>
+    <h4 style="color: white; font-family: Arial, Helvetica, sans-serif;">GIT INIT COMMAND:</h4>
+   <img src="./images/12.png"/>
+    <p style="font-size: large;font-family: Arial, Helvetica, sans-serif;color: blanchedalmond;">After creating the repository on your github account we start initializing our repository by using git init command.</p>
+    <img src="./images/11.png"/>
+    <p style="font-size: large;font-family: Arial, Helvetica, sans-serif;color: blanchedalmond;">Here I use GIT INIT command to initialize the local directory as a git repository, GIT INIT command creates a new repository and also initializes the  new and empty repository. This is the first command you will run in the new project.</p>
+    
+    <h4 style="color:white; font-family: Arial, Helvetica, sans-serif;">GIT ADD COMMAND:</h4>
+    <img src="./images/22.png"/>
+    <p style="font-size: large;font-family: Arial, Helvetica, sans-serif;color: blanchedalmond;">Next  I used this command to add all the files to the folder. The git add command adds files to the staging area. Files in the staging area are those that you want to add to your next commit, changes are not actually recorded untill you run commit.</p>
+     
+    <h4 style="color:white; font-family: Arial, Helvetica, sans-serif;">GIT STATUS COMMAND:</h4>
+    <img src="./images/33.png"/>
+    <p style="font-size: large;font-family: Arial, Helvetica, sans-serif;color: blanchedalmond;">After using git status command i will now see all the files that i have stage for commit.It shows the state between the git add and git commit command. The git status command displays the state of repository and staging area, it allow us to see the tracked, untracked files and changes.</p>
+
+    <h4 style="color :white; font-family: Arial, Helvetica, sans-serif;">GIT COMMIT COMMAND::</h4>
+    <img src="./images/444.png"/>
+    <p style="font-size: large;font-family: Arial, Helvetica, sans-serif;color: blanchedalmond;">After checking the status of files I use git commit command to commit the files that i have stage in my local repository. It is like a snapshot of repository. This is used for moving files from staging area to commit. It also contains a lot of meta data.</p>
+
+
+    <h4 style="color :white; font-family: Arial, Helvetica, sans-serif;">GIT REMOTE ADD ORIGIN COMMAND:</h4>
+    <img src="./images/55.png"/>
+    <p style="font-size: large;font-family: Arial, Helvetica, sans-serif;color: blanchedalmond;">After commiting I add URL for the remote repository where your local repository will be pushed. To communicate outside the world GIT uses "remotes". There are repositories other than your local disk in which you can push your changes or pull from them. The command GIT REMOTE ADD ORIGIN creates a new remote called origin which is located at the URL you provided.</p>
+
+    <h3 style="color: white; font-family: Arial, Helvetica, sans-serif;">>>PUSHING DATA IN REMOTE REPOSITORY</h3>
+    <h4 style="color :white; font-family: Arial, Helvetica, sans-serif;">GIT PUSH ORIGN MASTER:</h4>
+    <img src="./images/66.png"/>
+    <p style="font-size: large;font-family: Arial, Helvetica, sans-serif;color: blanchedalmond;">Now i am pushing my code from my local repository to github repository by using GIT PUSH ORIGN MASTER command. This command push the commits from the local branch named master to the remote named orign. Once this is executed, all the stuff yhat you last synchronised with orign will be sent to the remote repository.</p>
+
+</body>
+
+</html>
